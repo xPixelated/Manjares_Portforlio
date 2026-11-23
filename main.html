@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+    <!-- ===== POPUP WELCOME WINDOW: START ===== -->
+    <div id="greeting-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <h1 id="modal-title">Welcome!</h1>
+            <p>Glad to have you here. Welcome to my portfolio!</p>
+            <button id="close-modal-btn" type="button">Got it</button>
+        </div>
+    </div>
+    <!-- ===== POPUP WELCOME WINDOW: END ===== -->
+
     <header>
         <h1 class="Title">Welcome to My Portfolio</h1>
         <nav>
@@ -18,7 +29,7 @@
         </nav>
     </header>
 
-    <section id="contact">
+    <section class="contact">
     <h2>Contact</h2>
     <div class="box-row">
     <div class="smooth-box">
@@ -38,6 +49,7 @@
     <footer>
         <p>&copy; 2026 Joaquin. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
